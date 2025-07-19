@@ -1,13 +1,13 @@
 import './App.css'
 import Header from './components/Header.tsx'
-import Repository from './components/Repository.tsx'
+import Portfolio from './components/Portfolio.tsx'
 
 function App() {
 
   return (
     <>
       <Header />
-      <Repository />
+      <Portfolio />
     </>
   )
 }
