@@ -4,16 +4,12 @@ const Portfolio = () => {
     return (
         <div className="flex flex-col bg-transparent w-full h-screen">
             {/* Presentacion */}
-            <div className="flex justify-center items-center mx-auto border-2 border-black p-4 rounded-2xl bg-background_2 mt-20 w-1/2 p-10">
+            <div className="flex justify-center items-center mx-auto p-4 rounded-2xl bg-white/5 backdrop-blur-sm mt-20 w-[60%] p-10 shadow-xl">
                 <div className="pr-10">
-                    <p className='text-lg font-bold text-white'>¡Hola! Soy Jonathan De Muria, desarrollador web con enfoque full stack.
-Me apasiona crear soluciones digitales que sean funcionales, modernas y bien diseñadas. Trabajo con tecnologías como React, TypeScript, JavaScript, y también tengo experiencia en el desarrollo backend y mobile.
-En este espacio vas a encontrar algunos de los proyectos en los que estuve trabajando. Cada uno refleja mi compromiso por aprender, mejorar y aportar valor a través del código.
-Estoy en constante crecimiento, siempre buscando nuevos desafíos y oportunidades para seguir desarrollándome profesionalmente.
-Si tenés una idea, proyecto o simplemente querés charlar, no dudes en contactarme.
+                    <p className='text-lg font-bold text-white'>Soy Jonathan De Muria, desarrollador web full stack. Me gusta construir soluciones funcionales, modernas y bien pensadas. En este portfolio podés ver parte de mi trabajo y evolución. ¡Gracias por pasar!
 </p>
                 </div>
-                    <img src={Avatar} alt="Avatar" className="w-64 h-auto rounded-full" />
+                    <img src={Avatar} alt="Avatar" className="w-64 h-auto rounded-full transition-all duration-500 hover:scale-105" />
             </div>
             {/* Proyectos */}
             <div className="mx-auto">
