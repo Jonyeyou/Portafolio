@@ -12,7 +12,8 @@
   "dependencies": {
     "@fontsource/montserrat": "^5.2.6",
     "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "react-dom": "^19.1.0",
+    "react-simple-typewriter": "^5.0.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.30.1",
